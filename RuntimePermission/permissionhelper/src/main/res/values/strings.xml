@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PermissionHelper</string>
+    <string name="permission_denial_text">\nTo enable this click App Settings below and activate permissions under the permission menu.\n</string>
+    <string name="permission_denial_title">Permission</string>
+    <string name="setting_button_text">App Setting</string>
+    <string name="not_now_text">Not Now</string>
+</resources>

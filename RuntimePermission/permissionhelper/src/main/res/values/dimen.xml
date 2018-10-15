@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="permission_outer_padding">10dp</dimen>
+    <dimen name="permission_inner_padding">15dp</dimen>
+    <dimen name="permission_not_now_right_margin">15dp</dimen>
+
+</resources>

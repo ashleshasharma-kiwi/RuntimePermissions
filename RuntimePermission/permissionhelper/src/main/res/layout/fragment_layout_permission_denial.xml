@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/permission_outer_padding">
+
+    <TextView
+        android:id="@+id/tv_permission_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/permission_inner_padding"
+        android:paddingRight="@dimen/permission_inner_padding"
+        android:paddingLeft="@dimen/permission_inner_padding"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/permission_denial_title" />
+
+    <TextView
+        android:id="@+id/tv_permission_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_below="@+id/tv_permission_title"
+        android:paddingLeft="@dimen/permission_inner_padding"
+        android:paddingRight="@dimen/permission_inner_padding" />
+
+    <TextView
+        android:id="@+id/btn_app_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_permission_text"
+        android:layout_marginRight="@dimen/permission_outer_padding"
+        android:padding="@dimen/permission_outer_padding"
+        android:text="@string/setting_button_text"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/btn_not_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_permission_text"
+        android:layout_marginRight="@dimen/permission_not_now_right_margin"
+        android:background="#D0D0D0"
+        android:textColor="@android:color/black"
+        android:layout_toLeftOf="@+id/btn_app_setting"
+        android:padding="@dimen/permission_outer_padding"
+        android:text="@string/not_now_text" />
+
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RuntimePermission</string>
+    <string name="txt_denial_permission_location">Location \nAllows this app to access your devices\'s current or saved location.</string>
+    <string name="text_location_permission_granted">Location Permission granted.</string>
+</resources>
