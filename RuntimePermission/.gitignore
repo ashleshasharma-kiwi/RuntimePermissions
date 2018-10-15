@@ -3,6 +3,10 @@
 /local.properties
 /.idea/libraries
 /.idea/modules.xml
+# IDEA files
+.idea/
+out/
+*.iml
 /.idea/workspace.xml
 .DS_Store
 /build
